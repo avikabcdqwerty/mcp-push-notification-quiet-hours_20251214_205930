@@ -1,0 +1,98 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+pnpm-lock.yaml
+
+# TypeScript
+dist/
+build/
+*.tsbuildinfo
+
+# React
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.env.*
+*.env.*
+*.cache/
+*.log
+
+# Jest
+coverage/
+jest-test-results.json
+
+# ESLint/Prettier
+.eslintcache
+.prettiercache
+
+# Docker
+docker-compose.override.yml
+*.pid
+
+# PostgreSQL
+*.db
+*.sqlite
+*.pgsql
+pgdata/
+postgres-data/
+
+# TypeORM
+ormconfig.js
+ormconfig.json
+ormconfig.yml
+ormconfig.env
+
+# OpenAPI/Swagger
+swagger.json
+swagger.yaml
+
+# Misc
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+.vscode/
+*.iml
+*.bak
+*.tmp
+*.lock
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+*.DS_Store
+*.AppleDouble
+*.LSOverride
+
+# Others
+*.tgz
+*.gz
+*.zip
+*.tar
+*.rar
+
+# Ignore build artifacts from frontend and backend
+frontend/build/
+backend/build/
+frontend/dist/
+backend/dist/
+
+# Ignore generated documentation
+docs/
+doc/
+documentation/
+
+# Ignore test output
+test-output/
+test-results/
+
+# Ignore Docker volumes
+volumes/
