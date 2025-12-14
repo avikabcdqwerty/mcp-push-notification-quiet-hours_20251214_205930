@@ -1,12 +1,3 @@
-// src/features/notifications/QuietHoursFeature.tsx
-
-/**
- * QuietHoursFeature.tsx
- * Implements backend API endpoints (Express), frontend React component for quiet hours settings,
- * and supporting logic for validation, persistence, and notification suppression/queuing.
- * All code is modular, secure, and production-ready.
- */
-
 import React, { useState, useEffect, ChangeEvent, FormEvent } from 'react';
 import express, { Request, Response, NextFunction, Router } from 'express';
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, UpdateDateColumn, BaseEntity, getRepository } from 'typeorm';
